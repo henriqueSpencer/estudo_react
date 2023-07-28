@@ -1,0 +1,14 @@
+
+# Atalhos
+Codes -> Preferences -> keyboard short cuts
+# Formatar
+Option + shift + f
+
+# Extensoes
+View -> Extensions
+
+npm install
+npm start
+
+# Criar um Projeto React automatico
+npx create-react-app NOME_PROJETO
