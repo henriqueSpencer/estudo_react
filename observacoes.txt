@@ -12,3 +12,5 @@ npm start
 
 # Criar um Projeto React automatico
 npx create-react-app NOME_PROJETO
+
+# Ao importar js omite o .js

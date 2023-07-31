@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './componentes/ExpenseItem';
+
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          Feito por Henrique, Vlw Playboy 😎
+        </p>
+        <ExpenseItem></ExpenseItem>
       </header>
     </div>
   );
