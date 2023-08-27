@@ -14,3 +14,10 @@ npm start
 npx create-react-app NOME_PROJETO
 
 # Ao importar js omite o .js
+
+# Isso não é html, sim é feito para parecer com htlm, mas não é nao 
+# Por isso q não coloca class e sim className
+
+# {} dentro do retorno voce pode escrever codigo JS
+
+# Voce pode passar varios parametros do pai e no filho ele so recebe um, q é um dict
