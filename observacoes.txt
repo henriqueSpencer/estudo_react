@@ -21,3 +21,5 @@ npx create-react-app NOME_PROJETO
 # {} dentro do retorno voce pode escrever codigo JS
 
 # Voce pode passar varios parametros do pai e no filho ele so recebe um, q é um dict
+
+props.children é o que voce coloca entre as tags que voce ta chamando
