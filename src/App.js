@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ExpenseItem from "./componentes/ExpenseItem";
+import ExpenseItem from "./componentes/Expenses/ExpenseItem";
+// import Expenses from "./components/Expenses/Expenses";
+
+import NewExpense from "./componentes/NewExpense/NewExpense";
 
 function App() {
   const despesas = [
@@ -29,7 +32,10 @@ function App() {
     <div>
       {/* <ExpenseItem titulo={despesas[0].title}></ExpenseItem> */}
       {/* <ExpenseItem props={despesas[0]}></ExpenseItem> */}
+      <NewExpense />
+      {/* <Expenses items={despesas} /> */}
       <ExpenseItem props={despesas[0]}></ExpenseItem>
+      <ExpenseItem props={despesas[1]}></ExpenseItem>
       <ExpenseItem props={despesas[2]}></ExpenseItem>
     </div>
   );
