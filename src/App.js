@@ -28,11 +28,16 @@ function App() {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("Dento de app");
+    console.log(expense);
+  };
+
   return (
     <div>
       {/* <ExpenseItem titulo={despesas[0].title}></ExpenseItem> */}
       {/* <ExpenseItem props={despesas[0]}></ExpenseItem> */}
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       {/* <Expenses items={despesas} /> */}
       <ExpenseItem props={despesas[0]}></ExpenseItem>
       <ExpenseItem props={despesas[1]}></ExpenseItem>

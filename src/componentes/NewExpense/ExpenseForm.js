@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ExpenseForm.css";
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
   //FORMA 00 DE ATUALIZAR CAMPO, UM POR UM
   // const [enteredTitle, setEnteredTitle] = useState("");
 
@@ -36,10 +36,11 @@ const ExpenseForm = () => {
       amount: userInput.enteredAmount,
       date: new Date(userInput.enteredDate),
     };
-    console.log(expenseDate);
-    setUserInput((prevState) => {
-      return { ...prevState, enteredTitle: "" };
-    });
+    //console.log(expenseDate);
+    props.onSaveExpenseData(expenseDate);
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredTitle: "" };
+    // });
   };
 
   return (
